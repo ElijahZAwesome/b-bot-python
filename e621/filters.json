@@ -1,7 +1,0 @@
-{
-    "default" : [
-        "rating:safe",
-        "-grimdark",
-        "-suggestive"
-    ]
-}
