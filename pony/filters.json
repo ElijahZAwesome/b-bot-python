@@ -1,0 +1,8 @@
+{
+    "default" : [
+        "-meme",
+        "safe",
+        "-spoiler:*",
+        "-vulgar"
+    ]
+}
