@@ -1,0 +1,13 @@
+{
+    "AUTHOR" : "ElijahZAwesome",
+    "DESCRIPTION" : "Will deep fry any image given by overloading it with saturation, contrast, etc.",
+    "INSTALL_MSG" : "Hey, thanks bud! Hope you enjoy this deepfrying goodness.",
+    "NAME" : "deepfry",
+    "REQUIREMENTS" : [
+        "PIL"
+    ],
+    "SHORT" : "Deep frys any image link given.",
+    "TAGS" : [
+        "deepfry"
+    ]
+}
