@@ -2,6 +2,7 @@
     "cogs.adventure" : true,
     "cogs.alias" : true,
     "cogs.audio" : true,
+    "cogs.botstats" : true,
     "cogs.customcom" : true,
     "cogs.dan" : true,
     "cogs.deepfry" : false,
