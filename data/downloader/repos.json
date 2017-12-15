@@ -192,6 +192,11 @@
             "file" : "data\\downloader\\Meme-Cogs\\imagefilter\\imagefilter.py",
             "folder" : "data\\downloader\\Meme-Cogs\\imagefilter"
         },
+        "rainbow" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\Meme-Cogs\\rainbow\\rainbow.py",
+            "folder" : "data\\downloader\\Meme-Cogs\\rainbow"
+        },
         "shoot" : {
             "INSTALLED" : true,
             "file" : "data\\downloader\\Meme-Cogs\\shoot\\shoot.py",
@@ -572,6 +577,74 @@
             "folder" : "data\\downloader\\mash-cogs\\wikipedia"
         }
     },
+    "paddo-cogs" : {
+        "customroles" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\customroles\\customroles.py",
+            "folder" : "data\\downloader\\paddo-cogs\\customroles"
+        },
+        "goodreads" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\goodreads\\goodreads.py",
+            "folder" : "data\\downloader\\paddo-cogs\\goodreads"
+        },
+        "grenzpolizei" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\paddo-cogs\\grenzpolizei\\grenzpolizei.py",
+            "folder" : "data\\downloader\\paddo-cogs\\grenzpolizei"
+        },
+        "invoice" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\invoice\\invoice.py",
+            "folder" : "data\\downloader\\paddo-cogs\\invoice"
+        },
+        "kill" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\kill\\kill.py",
+            "folder" : "data\\downloader\\paddo-cogs\\kill"
+        },
+        "lastfm" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\lastfm\\lastfm.py",
+            "folder" : "data\\downloader\\paddo-cogs\\lastfm"
+        },
+        "logtools" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\logtools\\logtools.py",
+            "folder" : "data\\downloader\\paddo-cogs\\logtools"
+        },
+        "maolmao" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\maolmao\\maolmao.py",
+            "folder" : "data\\downloader\\paddo-cogs\\maolmao"
+        },
+        "oweather" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\oweather\\oweather.py",
+            "folder" : "data\\downloader\\paddo-cogs\\oweather"
+        },
+        "schmeckles" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\schmeckles\\schmeckles.py",
+            "folder" : "data\\downloader\\paddo-cogs\\schmeckles"
+        },
+        "steam" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\steam\\steam.py",
+            "folder" : "data\\downloader\\paddo-cogs\\steam"
+        },
+        "url" : "https://github.com/PaddoInWonderland/PaddoCogs",
+        "wikipedia" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\wikipedia\\wikipedia.py",
+            "folder" : "data\\downloader\\paddo-cogs\\wikipedia"
+        },
+        "youtube" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\paddo-cogs\\youtube\\youtube.py",
+            "folder" : "data\\downloader\\paddo-cogs\\youtube"
+        }
+    },
     "refactored-cogs" : {
         "antilink" : {
             "INSTALLED" : false,
@@ -614,5 +687,38 @@
             "folder" : "data\\downloader\\refactored-cogs\\sentry"
         },
         "url" : "https://github.com/Kowlin/refactored-cogs/"
+    },
+    "wizardcogs" : {
+        "bump" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\wizardcogs\\bump\\bump.py",
+            "folder" : "data\\downloader\\wizardcogs\\bump"
+        },
+        "ehelp" : {
+            "INSTALLED" : true,
+            "file" : "data\\downloader\\wizardcogs\\ehelp\\ehelp.py",
+            "folder" : "data\\downloader\\wizardcogs\\ehelp"
+        },
+        "jokes" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\wizardcogs\\jokes\\jokes.py",
+            "folder" : "data\\downloader\\wizardcogs\\jokes"
+        },
+        "rainbow" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\wizardcogs\\rainbow\\rainbow.py",
+            "folder" : "data\\downloader\\wizardcogs\\rainbow"
+        },
+        "spam" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\wizardcogs\\spam\\spam.py",
+            "folder" : "data\\downloader\\wizardcogs\\spam"
+        },
+        "url" : "https://github.com/Real-Wizard/Wizard-Cogs",
+        "whisper" : {
+            "INSTALLED" : false,
+            "file" : "data\\downloader\\wizardcogs\\whisper\\whisper.py",
+            "folder" : "data\\downloader\\wizardcogs\\whisper"
+        }
     }
 }
