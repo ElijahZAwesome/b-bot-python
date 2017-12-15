@@ -1,4 +1,0 @@
-tabulate
-keyboard
-feedparser
-pyfiglet

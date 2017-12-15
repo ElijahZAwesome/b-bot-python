@@ -6138,3 +6138,61 @@ Traceback (most recent call last):
   File "lib\requests\models.py", line 379, in prepare_url
     raise MissingSchema(error)
 requests.exceptions.MissingSchema: Invalid URL '<@376786683921825793>': No schema supplied. Perhaps you meant http://<@376786683921825793>?
+[14/12/2017 21:05] ERROR red on_command_error 369: Exception in command 'cog update'
+Traceback (most recent call last):
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 254, in update
+    name, updates, oldhash = await f
+  File "C:\Users\computer\AppData\Local\Programs\Python\Python36-32\lib\asyncio\tasks.py", line 458, in _wait_for_one
+    return f.result()  # May raise f.exception().
+  File "C:\Users\computer\AppData\Local\Programs\Python\Python36-32\lib\concurrent\futures\thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 665, in update_repo
+    raise CloningError(name, *e.args) from None
+cogs.downloader.CloningError: Dumb-Cogs
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 266, in update
+    name, what = e.args
+ValueError: not enough values to unpack (expected 2, got 1)
+[14/12/2017 21:12] ERROR red load_cogs 573: cannot import name 'version'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\computer\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\deepfry.py", line 6, in <module>
+    import PIL
+  File "lib\PIL\__init__.py", line 14, in <module>
+    from . import version
+ImportError: cannot import name 'version'
+[14/12/2017 21:12] ERROR red load_cogs 573: cannot import name 'version'
+Traceback (most recent call last):
+  File "red.py", line 570, in load_cogs
+    owner_cog._load_cog(extension)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\owner.py", line 946, in _load_cog
+    mod_obj = importlib.import_module(cogname)
+  File "C:\Users\computer\AppData\Local\Programs\Python\Python36-32\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\imagefilter.py", line 7, in <module>
+    import PIL
+  File "lib\PIL\__init__.py", line 14, in <module>
+    from . import version
+ImportError: cannot import name 'version'

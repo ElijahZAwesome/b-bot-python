@@ -21,7 +21,7 @@
             "on_message_edit" : true,
             "on_server_role_create" : true,
             "on_server_role_delete" : true,
-            "on_server_role_update" : true,
+            "on_server_role_update" : false,
             "on_voice_state_update" : true,
             "on_warning" : true
         }
