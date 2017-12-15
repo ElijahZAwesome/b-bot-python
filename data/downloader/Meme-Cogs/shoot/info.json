@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "AUTHOR" : "ElijahZAwesome",
     "DESCRIPTION" : "Will 'shoot' whatever user you specify",
@@ -12,4 +13,20 @@
         "user",
         "mention"
     ]
+=======
+{
+    "AUTHOR" : "ElijahZAwesome",
+    "DESCRIPTION" : "Will 'shoot' whatever user you specify",
+    "INSTALL_MSG" : "",
+    "NAME" : "shoot",
+    "REQUIREMENTS" : [],
+    "SHORT" : "Shoots a user",
+    "TAGS" : [
+        "shoot",
+        "fun",
+        "funny",
+        "user",
+        "mention"
+    ]
+>>>>>>> 1f177978ce4a7c78d81cc6365aa4ab0fe5057c62
 }

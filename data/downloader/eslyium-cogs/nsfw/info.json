@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Eslyium",
+    "SHORT" : "Posts Nsfw Images From X Sites",
+    "DESCRIPTION" : "Posts Nsfw Images From X Sites",
+    "DISABLED" : false,
+    "NAME" : "Nsfw",
+    "REQUIREMENTS" : ["bs4"],
+    "TAGS" : ["nsfw"],
+    "INSTALL_MSG" : "Congrats On Downloading The NSFW Cog!"
+}
