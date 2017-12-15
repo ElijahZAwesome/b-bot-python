@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "AUTHOR" : "ElijahZAwesome",
     "DESCRIPTION" : "Will deep fry any image given by overloading it with saturation, contrast, etc.",
@@ -12,18 +11,3 @@
         "deepfry"
     ]
 }
-=======
-{
-    "AUTHOR" : "ElijahZAwesome",
-    "DESCRIPTION" : "Will deep fry any image given by overloading it with saturation, contrast, etc.",
-    "INSTALL_MSG" : "Hey, thanks bud! Hope you enjoy this deepfrying goodness.",
-    "NAME" : "deepfry",
-    "REQUIREMENTS" : [
-        "PIL"
-    ],
-    "SHORT" : "Deep frys any image link given.",
-    "TAGS" : [
-        "deepfry"
-    ]
-}
->>>>>>> 1f177978ce4a7c78d81cc6365aa4ab0fe5057c62

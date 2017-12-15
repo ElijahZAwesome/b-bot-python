@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "AUTHOR" : "ElijahZAwesome",
     "DESCRIPTION" : "Sends a gif of a small child hitting his mom with a sword, along with some anime text",
@@ -15,22 +14,4 @@
         "funny",
         "meme"
     ]
-=======
-{
-    "AUTHOR" : "ElijahZAwesome",
-    "DESCRIPTION" : "Sends a gif of a small child hitting his mom with a sword, along with some anime text",
-    "INSTALL_MSG" : "",
-    "NAME" : "thot",
-    "REQUIREMENTS" : [],
-    "SHORT" : "Sends of gif, with some anime text",
-    "TAGS" : [
-        "thot",
-        "slayer",
-        "kid",
-        "gif",
-        "small",
-        "funny",
-        "meme"
-    ]
->>>>>>> 1f177978ce4a7c78d81cc6365aa4ab0fe5057c62
 }
