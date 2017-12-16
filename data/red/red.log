@@ -6196,3 +6196,36 @@ Traceback (most recent call last):
   File "lib\PIL\__init__.py", line 14, in <module>
     from . import version
 ImportError: cannot import name 'version'
+[16/12/2017 09:12] ERROR red on_command_error 369: Exception in command 'cog install'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 395, in _install
+    data = self.get_info_data(repo_name, cog)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 480, in get_info_data
+    cogs = self.list_cogs(repo_name)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 503, in list_cogs
+    folders = [f for f in os.listdir(repo_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data\\downloader\\Meme-Cogs'
+[16/12/2017 09:12] ERROR red on_command_error 369: Exception in command 'cog install'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 395, in _install
+    data = self.get_info_data(repo_name, cog)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 480, in get_info_data
+    cogs = self.list_cogs(repo_name)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 503, in list_cogs
+    folders = [f for f in os.listdir(repo_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data\\downloader\\Meme-Cogs'
+[16/12/2017 09:12] ERROR red on_command_error 369: Exception in command 'cog install'
+Traceback (most recent call last):
+  File "lib\discord\ext\commands\core.py", line 50, in wrapped
+    ret = yield from coro(*args, **kwargs)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 395, in _install
+    data = self.get_info_data(repo_name, cog)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 480, in get_info_data
+    cogs = self.list_cogs(repo_name)
+  File "C:\Users\computer\Documents\GitHub\b-bot-python\cogs\downloader.py", line 503, in list_cogs
+    folders = [f for f in os.listdir(repo_path)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'data\\downloader\\Meme-Cogs'
